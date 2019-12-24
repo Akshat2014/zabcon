@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+    line-height: 1.2;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    list-style: none;
+ 
+ }
+
+$primaryColor:#756a0b;
+$secondaryColor:#afafaf;
+$bodyBackground: #f9f9f9;
+$universalColor: #fff;
+$inverseColor: #000000;
+
+html{
+    scroll-behavior: smooth;
+  }
+  
+  
+  body{
+    background-color: $bodyBackground;  
+    overflow-x: hidden;
+  
+  }

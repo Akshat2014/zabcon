@@ -1,0 +1,111 @@
+// header section
+
+.header-wrapper-container{
+    height: 12.5em;
+    position: relative;
+    z-index: 2;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    .header-wrapper{
+        @extend .globalContainer;
+        height: 100%;
+        display: flex;
+        padding: 1em 0;
+        place-content: flex-end;
+        .logo-wrapper{
+            max-width: 60px;
+            img{
+                width: 100%;
+                object-fit: cover;
+
+            }
+        }
+
+        .header-menu-container{
+            display: grid;
+            width: 100%;
+            .upper-section-menu{
+                align-self: end;
+                .upper-content{
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: center;
+                    .menu-content-link{
+                        padding: 1em 2em;
+                            .menu-link{
+                                font-size: 1.2em;
+                                text-transform: uppercase;
+                                color: $secondaryColor;
+
+                                &:hover{
+                                    color: $primaryColor;
+                                }
+                            }
+                        
+
+                      
+                    }
+
+                    .search-box-container{
+                        width: 20%;
+                         box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.75);
+                        .search-box{
+                            padding: 1em 1em;
+                            width: 100%;
+                            background: $bodyBackground;
+                            color: $secondaryColor;
+                            font-size: 1.2em;
+                           
+                            border: none;
+                        }
+                        .icon-container{
+                            position: absolute;
+                            color: #afafaf;
+                            background: $bodyBackground;
+                            padding: .8em;
+                            top: 3.9em;
+                            right: 36.1em;
+                            i{
+                                font-size: 1.6em;
+                            }
+    
+                            &:hover{
+                                color: $primaryColor;
+                            }
+    
+                        }
+                    }
+                    
+                    
+                }
+            }
+            .lower-section-menu{
+                align-self: end;
+                .lower-content{
+                    .menu-content-list{
+                        display: grid;
+                        grid-template-columns: repeat(5, 1fr);
+                        margin-left: 18vw;
+                        .menu-content-items{
+                            justify-self: center;
+                            place-self: flex-end;
+                            .menu-contnet-link{
+                                color: $secondaryColor;
+                                text-transform: uppercase;
+                                font-size: 1.3em;
+
+                                &:hover{
+                                    color: $primaryColor;
+                                }
+                            }
+                        }
+                    }   
+                }
+            }
+        }
+    }
+}
+
+
+// 
