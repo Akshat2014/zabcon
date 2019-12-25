@@ -9,6 +9,8 @@
       @yield('page_title')
    </title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+<link rel="stylesheet" href="{{asset('public/css/owl.carousel.min.css')}}">
+<link rel="stylesheet" href="{{asset('public/css/owl.theme.default.css')}}">
 <link rel="stylesheet" href="{{asset('public/css/scss/zabcon.css')}}">
 </head>
 <body>
@@ -20,8 +22,8 @@
       @include('includes.footer')
       
    </div>
-<script src="{{url('public/js/jquery.min.js')}}"></script>
-<script src="{{url('public/js/owl.carousel.min.js')}}"></script>
-<script src="{{url('public/js/project.js')}}"></script>
+<script src="{{asset('public/js/jquery.min.js')}}"></script>
+<script src="{{asset('public/js/owl.carousel.min.js')}}"></script>
+<script src="{{asset('public/js/zabcon.js')}}"></script>
 </body>
 </html>
