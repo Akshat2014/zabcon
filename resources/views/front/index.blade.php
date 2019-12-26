@@ -61,18 +61,18 @@
                 welcome
             </div>
             <div class="main-content-wrapper">
-                <p>
                     ACC (Arabian Construction Company) is a leading construction
                 contractor in the MENA region with a portfolio that includes 
                 some of the Middle East and India’s most iconic and sophisticated 
                 construction masterpieces
-
+                </div>
+                <div class="main-content-wrapper">
                 For almost 50 years, we have shaped the skylines of major cities,
                 set the infrastructure for large industrial facilities and built
                 landmark projects in healthcare, hospitality, commercial and residential.
                 We focus on delivering quality while maintaining the highest health and 
                 safety standards.
-                </p>
+
                 <a href="" class="content-link">Find out more about us.</a>
             </div>
           </div> 

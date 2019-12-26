@@ -174,22 +174,26 @@
                padding-bottom: .6em;
                color: $primaryColor;
             }
-            .main-content-wrapper{
-               p{
+            .main-content-wrapper, .content-link{
+              
                   font-size: 1.6em;
                   word-spacing: 2px;
                   line-height: 25px;
-               }
-               .content-link{
-                  color: $primaryColor;
-                  font-size: 1.6em;
-               }
+            }
+            .main-content-wrapper{
+               padding-bottom: 2em;
+            }
+            .content-link{
+               color: $primaryColor;
             }
          }
          .section-second-content{
             justify-self: flex-end;
             .heading-wrapper{
                background: $primaryColor;
+               font-size: 3.6em;
+               text-transform: uppercase;
+               padding-bottom: .6em;
             }
             .content-card-count{
                .list-count{
