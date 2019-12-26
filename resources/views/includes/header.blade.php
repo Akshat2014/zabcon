@@ -1,4 +1,4 @@
-<header id="header-wrapper-container" class="header-wrapper-container ">
+<header id="header-wrapper-container" class="header-wrapper-container">
     <div class="header-wrapper">
         <div class="logo-wrapper">
         <img src="{{asset('public/images/logoimage/zabcon.png')}}" alt="">

@@ -105,11 +105,12 @@
             }
         }
     }
+    &.shift{
+        background: $universalColor;
+    }
 }
 
 
-.shift{
-    background: $universalColor;
-}
+
 
 // 

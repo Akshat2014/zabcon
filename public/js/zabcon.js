@@ -19,15 +19,42 @@ try {
  
 
 
-//  on scroll 
+// //  on scroll 
 
-function myTransform() {
-   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-      document.getElementsByClassName("header-wrapper-container").classList.add('shift') 
+// function myTransform() {
+//    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+//       document.getElementsByClassName("header-wrapper-container").classList.add('shift') 
+//    }else{
+//       document.getElementsByClassName("header-wrapper-container").classList.remove('shift')    }
+// }
+//  window.onscroll = myTransform();
+
+
+
+try {
+   
+   const headerChange = () => {
+
+      if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+      document.querySelector('#header-wrapper-container').classList.add('shift') 
    }else{
-      document.getElementsByClassName("header-wrapper-container").classList.remove('shift')    }
+      document.querySelector('#header-wrapper-container').classList.remove('shift')   
+    }
 }
- window.onscroll = myTransform();
+
+
+
+window.addEventListener('scroll' , headerChange)
+
+
+} catch (error) {
+   
+}
+
+
+
+
+
 
 
   
