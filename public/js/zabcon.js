@@ -35,7 +35,7 @@ try {
    
    const headerChange = () => {
 
-      if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+      if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
       document.querySelector('#header-wrapper-container').classList.add('shift') 
    }else{
       document.querySelector('#header-wrapper-container').classList.remove('shift')   
@@ -53,7 +53,24 @@ window.addEventListener('scroll' , headerChange)
 
 
 
+try {
+   $('#project-carousel').owlCarousel({
+      items: 3,
+      loop:true,
+      margin:0,
+      nav: true,
+      dots:false,
+      autoplay:true,
+      autoplayTimeout:5000,
+      autoplayHoverPause:true,
+      smartSpeed:1000,
+      paginationSpeed: 1000
+      
+      
 
+   })
+
+} catch (error) {}
 
 
 
