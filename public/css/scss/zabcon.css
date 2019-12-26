@@ -320,15 +320,18 @@ body {
   color: #ffcd05;
 }
 
-.welcome-section .welcome-section-container .section-content .section-first-content .main-content-wrapper p {
+.welcome-section .welcome-section-container .section-content .section-first-content .main-content-wrapper, .welcome-section .welcome-section-container .section-content .section-first-content .content-link {
   font-size: 1.6em;
   word-spacing: 2px;
   line-height: 25px;
 }
 
-.welcome-section .welcome-section-container .section-content .section-first-content .main-content-wrapper .content-link {
+.welcome-section .welcome-section-container .section-content .section-first-content .main-content-wrapper {
+  padding-bottom: 2em;
+}
+
+.welcome-section .welcome-section-container .section-content .section-first-content .content-link {
   color: #ffcd05;
-  font-size: 1.6em;
 }
 
 .welcome-section .welcome-section-container .section-content .section-second-content {
@@ -337,5 +340,8 @@ body {
 
 .welcome-section .welcome-section-container .section-content .section-second-content .heading-wrapper {
   background: #ffcd05;
+  font-size: 3.6em;
+  text-transform: uppercase;
+  padding-bottom: .6em;
 }
 /*# sourceMappingURL=zabcon.css.map */
