@@ -153,6 +153,10 @@ body {
   color: #ffcd05;
 }
 
+.shift {
+  background: #fff;
+}
+
 .banner-section #banner-carousel {
   height: calc(100vh);
 }

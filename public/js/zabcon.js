@@ -16,3 +16,19 @@ try {
     })
  
  } catch (error) {}
+ 
+
+
+//  on scroll 
+
+function myTransform() {
+   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+      document.getElementsByClassName("header-wrapper-container").classList.add('shift') 
+   }else{
+      document.getElementsByClassName("header-wrapper-container").classList.remove('shift')    }
+}
+ window.onscroll = myTransform();
+
+
+  
+ 
