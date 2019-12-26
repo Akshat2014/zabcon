@@ -80,6 +80,7 @@
               <div class="heading-wrapper">
                 FACTS & FIGURES
               </div>
+           <div class="content-card-wrapper">
             <ul class="content-card-count">
                 <li class="list-count">50</li>
                 <li class="list-count">7</li>
@@ -94,6 +95,7 @@
                 <li class="list-text">Workforce</li>
                 <li class="list-text">Annual turnover</li>
             </ul>
+           </div>
           </div> 
         </div>
         <div class="section-card"></div>
