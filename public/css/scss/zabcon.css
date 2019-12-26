@@ -50,6 +50,8 @@ body {
   position: fixed;
   z-index: 100;
   width: 100%;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .header-wrapper-container .header-wrapper {
@@ -339,8 +341,7 @@ body {
   color: #ffcd05;
 }
 
-.welcome-section .welcome-section-container .section-content .section-first-content .main-content-wrapper,
-.welcome-section .welcome-section-container .section-content .section-first-content .content-link {
+.welcome-section .welcome-section-container .section-content .section-first-content .main-content-wrapper {
   font-size: 1.6em;
   word-spacing: 2px;
   line-height: 25px;
@@ -352,6 +353,7 @@ body {
 
 .welcome-section .welcome-section-container .section-content .section-first-content .content-link {
   color: #ffcd05;
+  font-size: inherit;
 }
 
 .welcome-section .welcome-section-container .section-content .section-second-content {
@@ -700,12 +702,12 @@ body {
   color: white;
   text-transform: uppercase;
   background-color: rgba(0, 0, 0, 0.7);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .capablities-section .capablities-section-wrapper .capablities-card-wrapper .card-image-wrapper .image-content-section:hover {
   background-color: rgba(0, 0, 0, 0.4);
-  -webkit-transition: ease-in-out 1s;
-  transition: ease-in-out 1s;
 }
 
 .global-footer {

@@ -35,7 +35,7 @@ try {
    
    const headerChange = () => {
 
-      if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+      if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
       document.querySelector('#header-wrapper-container').classList.add('shift') 
    }else{
       document.querySelector('#header-wrapper-container').classList.remove('shift')   

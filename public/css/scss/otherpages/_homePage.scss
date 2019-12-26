@@ -165,8 +165,8 @@
                     padding-top: 1.5em;
                     color: $primaryColor;
                 }
-                .main-content-wrapper,
-                .content-link {
+                .main-content-wrapper
+                {
                     font-size: 1.6em;
                     word-spacing: 2px;
                     line-height: 25px;
@@ -176,6 +176,7 @@
                 }
                 .content-link {
                     color: $primaryColor;
+                    font-size: inherit;
                 }
             }
             .section-second-content {
@@ -473,6 +474,7 @@
                    height: 100%;
                    width: 100%;
                    object-fit: cover;
+
                 }
                 .image-content-section {
                     font-size: 2em;
@@ -498,10 +500,11 @@
                     color: white;
                     text-transform: uppercase;
                     background-color: rgba(0, 0, 0, 0.7);
+                    transition: all 0.5s ease-in-out;
 
                     &:hover{
                         background-color: rgba(0, 0, 0, 0.4);
-                        transition: ease-in-out 1s ;
+                       
                     }
                 }
             }
