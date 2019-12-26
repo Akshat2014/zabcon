@@ -50,23 +50,28 @@
 
                     .search-box-container{
                         width: 20%;
-                         box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.75);
+                        position:relative;
+                        border: 1px solid rgba($color: $secondaryColor, $alpha: 1.0);
                         .search-box{
                             padding: 1em 1em;
                             width: 100%;
-                            background: $bodyBackground;
-                            color: $secondaryColor;
+                            background: transparent;
+                            color: $universalColor;
                             font-size: 1.2em;
-                           
+                            
                             border: none;
+
+                            &::placeholder{
+                                color: rgba($color: $secondaryColor, $alpha: 1.0);
+                            }
                         }
                         .icon-container{
                             position: absolute;
                             color: #afafaf;
-                            background: $bodyBackground;
+                            background: transparent;
                             padding: .8em;
-                            top: 3.9em;
-                            right: 36.1em;
+                            right: 0;
+                            top: 5px;
                             i{
                                 font-size: 1.6em;
                             }

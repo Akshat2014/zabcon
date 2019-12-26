@@ -1,7 +1,7 @@
 <header id="header-wrapper-container" class="header-wrapper-container">
     <div class="header-wrapper">
         <div class="logo-wrapper">
-        <img src="{{asset('public/images/logoimage/zabcon.png')}}" alt="">
+        <img src="{{asset('public/images/logoImage/zabcon.png')}}" alt="">
         </div>
         <div class="header-menu-container">
             <div class="upper-section-menu">

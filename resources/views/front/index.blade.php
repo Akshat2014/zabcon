@@ -18,7 +18,7 @@
                 </div>
             </div>
         </div>
-        <div class="item">
+        {{-- <div class="item">
             <div class="banner-image">
                 <img src="{{asset('public/images/bannerImages/bannertwo.png')}}" alt="">
                 <div class="banner-text-wrapper">
@@ -27,7 +27,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
         <div class="item">
             <div class="banner-image">
                 <img src="{{asset('public/images/bannerImages/bannerthree.png')}}" alt="">

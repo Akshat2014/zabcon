@@ -283,7 +283,7 @@
         .item {
             margin: 1.1em;
             .project-image {
-                height: calc(30vh);
+                height: 250px;
                 position: relative;
                 img {
                     height: 100%;
@@ -321,7 +321,7 @@
                     left: 0;
                     bottom: 0;
                     width: 100%;
-                    height: 10%;
+                    height: 40px;
                     z-index: 1;
                     text-transform: capitalize;
                     background: rgba(143, 143, 143, 0.7);
