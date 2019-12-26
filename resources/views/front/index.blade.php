@@ -5,7 +5,6 @@
 @section('mainContent')
 
 
-
 {{-- banner section --}}
 <section id="banner-section" class="banner-section">
     <div id="banner-carousel" class="owl-carousel owl-theme">
