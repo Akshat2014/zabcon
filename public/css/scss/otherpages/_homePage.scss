@@ -157,6 +157,7 @@
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             .section-first-content {
+                width: 38vw;
                 .heading-wrapper {
                     font-size: 3.6em;
                     text-transform: uppercase;
@@ -180,6 +181,10 @@
             .section-second-content {
                 justify-self: flex-end;
                 // box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.75);
+                width: 24vw;
+                position: relative;
+                padding: 0 2vw;
+                top: 5vh;
                 .heading-wrapper {
                     background: $primaryColor;
                     color: $universalColor;
@@ -188,22 +193,34 @@
                     padding: 1em 3em 1em 1em;
                 }
                 .content-card-wrapper {
-                    display: grid;
-                    grid-template-columns: repeat(2, 1fr);
-                    padding: 2em;
+                    
                     background: $containerColor;
                     color: #808285;
-                    height: 80%;
                     .content-card-count {
-                        .list-count {
-                            padding: 16px 0;
-                            font-size: 1.8em;
+                        .list-count-entry {
+                            display: grid;
+                            grid-template-columns: 1fr 2fr;
+                            place-items: center;
+                            padding: 1.5vh 0;
+                           .list-count{
+                            font-size: 1.5em;
+                            font-weight: lighter;
+                           }
+                           .list-content{
+                            font-size: 1.2em;
+                            font-weight: lighter;
+                           }
+                        }
+                        .alternate{
+                            background: #eaeaea;
                         }
                     }
                     .content-card-text {
                         .list-text {
-                            padding: 19px 0;
                             font-size: 1.3em;
+                        }
+                        .alternate{
+                            background-color: $secondaryColor;
                         }
                     }
                 }
@@ -308,7 +325,7 @@
                     text-transform: capitalize;
                     background: rgba(143, 143, 143, 0.7);
                     .project-text {
-                        font-size: 2em;
+                        font-size: 1.5em;
                         color: rgba($color: $universalColor, $alpha: 1);
 
                         //  &:hover{
@@ -458,7 +475,7 @@
                    object-fit: cover;
                 }
                 .image-content-section {
-                    font-size: 1.5em;
+                    font-size: 2em;
                     visibility: visible;
                     position: absolute;
                     left: 0;
@@ -484,6 +501,7 @@
 
                     &:hover{
                         background-color: rgba(0, 0, 0, 0.4);
+                        transition: ease-in-out 1s ;
                     }
                 }
             }
@@ -505,8 +523,11 @@
         
 
         .footer-icon{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            width: 36%;
             .footer-icon-wrapper{
-                padding-bottom: 2.5em;
+                padding-bottom: 2.8em;
                 i{
                     font-size: 3em;
                     color: $primaryColor;

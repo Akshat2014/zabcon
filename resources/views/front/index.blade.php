@@ -60,10 +60,16 @@
                 welcome
             </div>
             <div class="main-content-wrapper">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique debitis enim inventore deserunt error. Corporis qui, sequi labore nesciunt incidunt architecto est magni delectus laboriosam, tempora dolore id assumenda rem ratione illo laborum dolorem obcaecati, aperiam ad pariatur eum laudantium maiores eaque! Corporis nesciunt asperiores veritatis ipsam, aspernatur accusamus harum!
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique debitis enim inventore
+                 laboriosam, tempora dolore id assumenda rem ratione illo laborum dolorem obcaecati, aperiam
+                  ad pariatur eum laudantium maiores eaque! Corporis nesciunt asperiores veritatis ipsam, 
+                  aspernatur accusamus harum!
              </div>
                 <div class="main-content-wrapper">
-               Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, eius quia vero vel laudantium accusantium eveniet pariatur, ab dignissimos voluptates ea, saepe labore ipsum voluptatum? Voluptates reprehenderit porro commodi exercitationem corrupti perspiciatis, esse ullam totam laudantium quibusdam laboriosam unde quisquam id, quasi officia fugiat obcaecati numquam sint adipisci voluptate dignissimos?
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, eius quia vero vel laudantium
+                Voluptates reprehenderit porro commodi exercitationem corrupti perspiciatis, esse ullam totam 
+                laudantium quibusdam laboriosam unde quisquam id, quasi officia fugiat obcaecati numquam sint 
+                adipisci voluptate dignissimos?
 
                 <a href="" class="content-link">Find out more about us.</a>
             </div>
@@ -75,20 +81,22 @@
            <div class="content-card-wrapper">
            
                 <ul class="content-card-count">
-                    <li class="list-count">50</li>
-                    <li class="list-count">7</li>
-                    <li class="list-count">11</li>
-                    <li class="list-count">30,000</li>
-                    <li class="list-count">Over $1 billion</li>
-                </ul>
-                <ul class="content-card-text">
-                    <li class="list-text">Lorem, Lorem, ipsum. ipsum dolor.</li>
-                    <li class="list-text">Lorem, ipsum dolor Lorem, ipsum.</li>
-                    <li class="list-text">Lorem ipsum dolor sit amet.</li>
-                    <li class="list-text">Lorem, Lorem, ipsum. ipsum.</li>
-                    <li class="list-text">Lorem, ipsum Lorem, ipsum.</li>
-                </ul>    
-             
+                    <li class="list-count-entry">
+                        <div class="list-count">50</div><div class="list-content">Year of exprience</div>
+                    </li>
+                    <li class="list-count-entry alternate">
+                        <div class="list-count">7</div><div class="list-content">Countries of operation</div>
+                    </li>
+                    <li class="list-count-entry">
+                        <div class="list-count">11</div><div class="list-content">Offices in the Middle East and India</div>
+                    </li>
+                    <li class="list-count-entry alternate">
+                        <div class="list-count">30,000</div><div class="list-content">Workforce</div>
+                    </li>
+                    <li class="list-count-entry">
+                        <div class="list-count">Over $1 billion</div><div class="list-content">Annual turnover</div>
+                    </li>
+                </ul>            
            </div>
           </div> 
         </div>
@@ -212,15 +220,13 @@
         <div class="footer-heading">stay updated</div>
         <div class="footer-icon">
             <div class="footer-icon-wrapper">
-                <i class="fab fa-linkedin-in"></i>
-            </div>
-            <div class="footer-icon-wrapper">
                 <i class="fab fa-facebook-f"></i>
             </div>
+            <div class="footer-icon-wrapper">
+                <i class="fab fa-linkedin-in"></i>
             </div>
-                <div class="footer-sub-heading">
-                    accsal webmail
-                </div>        
+            </div>
+                
                 <div class="footer-sub-heading">
                     terms & conditions
                 </div>        
@@ -267,7 +273,7 @@
 </section>
 
 <div class="copyright-line">
-    COPYRIGHT 2019 igniterpro.in. ALL RIGHTS RESERVED.
+    COPYRIGHT 2019 zabeel contracting. ALL RIGHTS RESERVED.
 </div>
 
 

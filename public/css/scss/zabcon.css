@@ -327,6 +327,10 @@ body {
       grid-template-columns: repeat(2, 1fr);
 }
 
+.welcome-section .welcome-section-container .section-content .section-first-content {
+  width: 38vw;
+}
+
 .welcome-section .welcome-section-container .section-content .section-first-content .heading-wrapper {
   font-size: 3.6em;
   text-transform: uppercase;
@@ -352,6 +356,10 @@ body {
 
 .welcome-section .welcome-section-container .section-content .section-second-content {
   justify-self: flex-end;
+  width: 24vw;
+  position: relative;
+  padding: 0 2vw;
+  top: 5vh;
 }
 
 .welcome-section .welcome-section-container .section-content .section-second-content .heading-wrapper {
@@ -363,24 +371,39 @@ body {
 }
 
 .welcome-section .welcome-section-container .section-content .section-second-content .content-card-wrapper {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (1fr)[2];
-      grid-template-columns: repeat(2, 1fr);
-  padding: 2em;
   background: #f1f1f1;
   color: #808285;
-  height: 80%;
 }
 
-.welcome-section .welcome-section-container .section-content .section-second-content .content-card-wrapper .content-card-count .list-count {
-  padding: 16px 0;
-  font-size: 1.8em;
+.welcome-section .welcome-section-container .section-content .section-second-content .content-card-wrapper .content-card-count .list-count-entry {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 2fr;
+      grid-template-columns: 1fr 2fr;
+  place-items: center;
+  padding: 1.5vh 0;
+}
+
+.welcome-section .welcome-section-container .section-content .section-second-content .content-card-wrapper .content-card-count .list-count-entry .list-count {
+  font-size: 1.5em;
+  font-weight: lighter;
+}
+
+.welcome-section .welcome-section-container .section-content .section-second-content .content-card-wrapper .content-card-count .list-count-entry .list-content {
+  font-size: 1.2em;
+  font-weight: lighter;
+}
+
+.welcome-section .welcome-section-container .section-content .section-second-content .content-card-wrapper .content-card-count .alternate {
+  background: #eaeaea;
 }
 
 .welcome-section .welcome-section-container .section-content .section-second-content .content-card-wrapper .content-card-text .list-text {
-  padding: 19px 0;
   font-size: 1.3em;
+}
+
+.welcome-section .welcome-section-container .section-content .section-second-content .content-card-wrapper .content-card-text .alternate {
+  background-color: #afafaf;
 }
 
 .welcome-section .welcome-section-container .section-card {
@@ -506,7 +529,7 @@ body {
 }
 
 .project-section #project-carousel .item .project-image .project-text-wrapper .project-text {
-  font-size: 2em;
+  font-size: 1.5em;
   color: white;
 }
 
@@ -654,7 +677,7 @@ body {
 }
 
 .capablities-section .capablities-section-wrapper .capablities-card-wrapper .card-image-wrapper .image-content-section {
-  font-size: 1.5em;
+  font-size: 2em;
   visibility: visible;
   position: absolute;
   left: 0;
@@ -681,6 +704,8 @@ body {
 
 .capablities-section .capablities-section-wrapper .capablities-card-wrapper .card-image-wrapper .image-content-section:hover {
   background-color: rgba(0, 0, 0, 0.4);
+  -webkit-transition: ease-in-out 1s;
+  transition: ease-in-out 1s;
 }
 
 .global-footer {
@@ -696,8 +721,16 @@ body {
   border-left: 1px solid #afafaf;
 }
 
+.global-footer .bottom-section .footer-icon {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  width: 36%;
+}
+
 .global-footer .bottom-section .footer-icon .footer-icon-wrapper {
-  padding-bottom: 2.5em;
+  padding-bottom: 2.8em;
 }
 
 .global-footer .bottom-section .footer-icon .footer-icon-wrapper i {
