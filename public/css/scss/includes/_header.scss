@@ -37,11 +37,9 @@
                             .menu-link{
                                 font-size: 1.2em;
                                 text-transform: uppercase;
-                                color: $secondaryColor;
+                                color: $universalColor;
 
-                                &:hover{
-                                    color: $primaryColor;
-                                }
+                                
                             }
                         
 
@@ -51,7 +49,7 @@
                     .search-box-container{
                         width: 20%;
                         position:relative;
-                        border: 1px solid rgba($color: $secondaryColor, $alpha: 1.0);
+                        border: 1px solid rgba($color: $universalColor, $alpha: 1.0);
                         .search-box{
                             padding: 1em 1em;
                             width: 100%;
@@ -97,13 +95,9 @@
                             justify-self: center;
                             place-self: flex-end;
                             .menu-contnet-link{
-                                color: $secondaryColor;
+                                color: rgba($color: $universalColor, $alpha: 1.0);
                                 text-transform: uppercase;
                                 font-size: 1.3em;
-
-                                &:hover{
-                                    color: $primaryColor;
-                                }
                             }
                         }
                     }   
@@ -113,6 +107,39 @@
     }
     &.shift{
         background: $universalColor;
+        .header-wrapper {
+            .header-menu-container {
+                .upper-section-menu {
+                    .upper-content {
+                        .menu-content-link {
+                            .menu-link {
+                                color: $darkgreyColor;
+                            }
+                        }
+
+                        .search-box-container {
+                            border-color: rgba($color: $secondaryColor, $alpha: 1.0);
+                            .search-box {
+                               
+                                color: $darkgreyColor;
+                               
+                            }
+                        }
+                    }
+                }
+                .lower-section-menu {
+                    .lower-content{
+                        .menu-content-list {
+                            .menu-content-items {
+                                .menu-contnet-link {
+                                    color: $darkgreyColor;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 

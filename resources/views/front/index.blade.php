@@ -219,12 +219,12 @@
             <div class="footer-list">
         <div class="footer-heading">stay updated</div>
         <div class="footer-icon">
-            <div class="footer-icon-wrapper">
+            <a href="" class="footer-icon-wrapper">
                 <i class="fab fa-facebook-f"></i>
-            </div>
-            <div class="footer-icon-wrapper">
+            </a>
+            <a class="footer-icon-wrapper">
                 <i class="fab fa-linkedin-in"></i>
-            </div>
+            </a>
             </div>
                 
                 <div class="footer-sub-heading">

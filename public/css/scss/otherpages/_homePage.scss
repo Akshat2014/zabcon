@@ -151,28 +151,30 @@
 
 .welcome-section {
     @extend .globalContainer;
+    padding-top: 40px;
     .welcome-section-container {
         padding: 4em 0;
         .section-content {
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
+            grid-template-columns: 2fr 1fr;
+            grid-gap: 2vw;
             .section-first-content {
-                width: 38vw;
+                align-self: center;
                 .heading-wrapper {
                     font-size: 3.6em;
                     text-transform: uppercase;
-                    padding-bottom: 0.6em;
-                    padding-top: 1.5em;
+                    
                     color: $primaryColor;
+                    
                 }
                 .main-content-wrapper
                 {
                     font-size: 1.6em;
                     word-spacing: 2px;
                     line-height: 25px;
-                }
-                .main-content-wrapper {
+                    font-weight: 300;
                     padding-bottom: 2em;
+                    color: rgba($color: $inverseColor, $alpha: 0.7);
                 }
                 .content-link {
                     color: $primaryColor;
@@ -180,14 +182,14 @@
                 }
             }
             .section-second-content {
-                justify-self: flex-end;
-                // box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.75);
-                width: 24vw;
-                position: relative;
-                padding: 0 2vw;
-                top: 5vh;
+                // // justify-self: flex-end;
+                // // box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.75);
+                // // width: 24vw;
+                // position: relative;
+                // padding: 0 2vw;
+                // top: 5vh;
                 .heading-wrapper {
-                    background: $primaryColor;
+                    background: $darkgreyColor;
                     color: $universalColor;
                     font-size: 2.4em;
                     text-transform: uppercase;
@@ -208,8 +210,8 @@
                             font-weight: lighter;
                            }
                            .list-content{
-                            font-size: 1.2em;
-                            font-weight: lighter;
+                            font-size: 1.3em;
+                            font-weight: 300;
                            }
                         }
                         .alternate{
@@ -251,6 +253,8 @@
                     font-size: 1.6em;
                     word-spacing: 2px;
                     line-height: 25px;
+                    font-weight: 300;
+                    color: rgba($color: $inverseColor, $alpha: 0.7);
                 }
             }
 
@@ -269,7 +273,7 @@
 // project-slider-section
 .project-section {
     @extend .globalContainer;
-    padding-bottom: 10vh;
+    padding-bottom: 100px;
     .project-heading-wrapper {
         font-size: 3.6em;
         text-transform: uppercase;
@@ -336,7 +340,7 @@
                 }
             }
             .project-dis {
-                color: $primaryColor;
+                color: $darkgreyColor;
                 // padding: 1em 0;
                 font-size: 1.4em;
                 line-height: 20px;
@@ -533,9 +537,17 @@
                 padding-bottom: 2.8em;
                 i{
                     font-size: 3em;
-                    color: $primaryColor;
+                }
+
+                &:nth-child(1){
+                    color: #1877f2;
+                }
+                &:nth-child(2){
+                    color: #007bb5;
                 }
             }
+
+
           
         }
 
@@ -569,6 +581,7 @@
     @extend.globalContainer;
     text-transform: uppercase;
     font-size: 1.5em;
-    color: $secondaryColor;
+    color: $darkgreyColor;
     padding-bottom: 3em;
+    font-weight: 300;
 }
